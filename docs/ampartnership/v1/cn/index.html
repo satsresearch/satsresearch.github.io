@@ -1,0 +1,1097 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="images/icon2.png" rel="icon" type="image/png" />
+    <title>API Documentation</title>
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s, .highlight .sa, .highlight .dl {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf, .highlight .fm {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight .nn {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight .nl {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight .ni {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight .bp {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight .vg {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight .vi {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight .nv, .highlight .vm {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight .w {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+  background-color: #272822;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all_nosearch.js"></script>
+  </head>
+
+  <body class="index" data-languages="[]">
+    <a href="#" id="nav-button">
+      <span>
+        <img src="images/navbar.png" alt="" />
+      </span>
+    </a>
+    <header>
+      <div class="flex_box">
+        <img src="images/logo4.png" class="logo" alt="" />
+        <div class="nav_box">
+          <span class="nav_cell" style="display: none">
+            <a href="javascript:;" class="nav_first">v1<i class="icon_nav"></i></a>
+            <ul class="nav_ul">
+              <li>
+                <a href="/docs/portfolio/v1/en/" id="v1_url">v1</a>
+              </li>
+            </ul>
+          </span>
+          <span class="nav_cell nav_tab">
+            <a href="/docs/portfolio/v1/en/" id="btn_portfolio">量化投资</a>
+          </span>
+          <span class="nav_cell nav_tab">
+            <a href="/docs/ampartnership/v1/en/" id="btn_ampartnership">資管合作</a>
+          </span>
+        </div>
+      </div>
+      <a href="/docs/portfolio/v1/cn/" class="lang" id="lang_box">简体中文</a>
+    </header>
+    <div class="toc-wrapper">
+      <ul id="toc" class="toc-list-h1">
+          <li>
+            <a href="#api" class="toc-h1 toc-link" data-title="一、API简介">一、API简介</a>
+          </li>
+          <li>
+            <a href="#b486b10bb5" class="toc-h1 toc-link" data-title="二、接入说明">二、接入说明</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#2-1-urls" class="toc-h2 toc-link" data-title="2.1 接入URLs">2.1 接入URLs</a>
+                  </li>
+                  <li>
+                    <a href="#2-2" class="toc-h2 toc-link" data-title="2.2 限频规则">2.2 限频规则</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#4387075b7a" class="toc-h1 toc-link" data-title="三、签名认证">三、签名认证</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#3-1" class="toc-h2 toc-link" data-title="3.1 签名说明">3.1 签名说明</a>
+                  </li>
+                  <li>
+                    <a href="#3-2" class="toc-h2 toc-link" data-title="3.2 签名步骤">3.2 签名步骤</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#996ce96049" class="toc-h1 toc-link" data-title="四、业务枚举">四、业务枚举</a>
+          </li>
+          <li>
+            <a href="#82ba285fa3" class="toc-h1 toc-link" data-title="五、接口明细">五、接口明细</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#5-1" class="toc-h2 toc-link" data-title="5.1 资金调拨">5.1 资金调拨</a>
+                  </li>
+                  <li>
+                    <a href="#http" class="toc-h2 toc-link" data-title="HTTP 请求">HTTP 请求</a>
+                  </li>
+                  <li>
+                    <a href="#1f9ac54b15" class="toc-h2 toc-link" data-title="请求参数">请求参数</a>
+                  </li>
+                  <li>
+                    <a href="#2213f4c32f" class="toc-h2 toc-link" data-title="响应数据">响应数据</a>
+                  </li>
+                  <li>
+                    <a href="#5-2" class="toc-h2 toc-link" data-title="5.2 查询资金调拨记录">5.2 查询资金调拨记录</a>
+                  </li>
+                  <li>
+                    <a href="#http-2" class="toc-h2 toc-link" data-title="HTTP 请求">HTTP 请求</a>
+                  </li>
+                  <li>
+                    <a href="#1f9ac54b15-2" class="toc-h2 toc-link" data-title="请求参数">请求参数</a>
+                  </li>
+                  <li>
+                    <a href="#2213f4c32f-2" class="toc-h2 toc-link" data-title="响应数据">响应数据</a>
+                  </li>
+                  <li>
+                    <a href="#5-3" class="toc-h2 toc-link" data-title="5.3 查询资金调拨记录列表">5.3 查询资金调拨记录列表</a>
+                  </li>
+                  <li>
+                    <a href="#http-3" class="toc-h2 toc-link" data-title="HTTP 请求">HTTP 请求</a>
+                  </li>
+                  <li>
+                    <a href="#1f9ac54b15-3" class="toc-h2 toc-link" data-title="请求参数">请求参数</a>
+                  </li>
+                  <li>
+                    <a href="#2213f4c32f-3" class="toc-h2 toc-link" data-title="响应数据">响应数据</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#099432f8f3" class="toc-h1 toc-link" data-title="六、错误码">六、错误码</a>
+          </li>
+          <li>
+            <a href="#0a4e1fbc63" class="toc-h1 toc-link" data-title="七、更新说明">七、更新说明</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#20240716" class="toc-h2 toc-link" data-title="20240716">20240716</a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='api'>一、API简介</h1>
+<p>欢迎使用API，此API文档将描述資管合作账户资金调拨关联API接口详情以及接入、验签说明。</p>
+<h1 id='b486b10bb5'>二、接入说明</h1><h2 id='2-1-urls'>2.1 接入URLs</h2>
+<p><strong>REST API</strong></p>
+
+<ul>
+<li><a href="https://api.satsresearch.com">https://api.satsresearch.com</a></li>
+</ul>
+<h2 id='2-2'>2.2 限频规则</h2>
+<p>限频规则针对接口进行限频，目前每个接口访问限制为1s内10次</p>
+
+<p>用户可根据Http Header中的信息调整访问策略</p>
+
+<ul>
+<li>rateLimit-times： 单轮请求数上限，单位：次数</li>
+<li>rateLimit-interval：请求数重置的时间间隔，单位：毫秒</li>
+<li>rateLimit-remaining：本轮剩余可用请求数，单位：次数</li>
+<li>rateLimit-reset：请求数上限重置时间，单位：毫秒</li>
+</ul>
+<h1 id='4387075b7a'>三、签名认证</h1><h2 id='3-1'>3.1 签名说明</h2>
+<p>API 请求在通过 internet 传输的过程中极有可能被篡改，为了确保请求未被更改，除公共接口（基础信息，行情数据）外的私有接口均必须使用您的
+API Key 做签名认证，以校验参数或参数值在传输途中是否发生了更改。（编码集统一 &quot;UTF-8&quot;）</p>
+
+<p>一个合法的请求由以下几部分组成：</p>
+
+<ul>
+<li>方法请求地址：即访问服务器地址 <a href="https://api.satsresearch.com">https://api.satsresearch.com</a>
+，比如https://api.satsresearch.com/api/v1/broker/transferFunds</li>
+<li>API 访问密钥（AccessKeyId）：您申请的 API Key 中的 Access Key。</li>
+<li>签名方法（SignatureMethod）：用户计算签名的基于哈希的协议，此处使用 HmacSHA256。</li>
+<li>签名版本（SignatureVersion）：签名协议的版本，此处使用1。</li>
+<li>时间戳（Timestamp）：系统当前毫秒数。</li>
+<li>必选和可选参数：每个方法都有一组用于定义 API 调用的必需参数和可选参数。可以在每个方法的说明中查看这些参数及其含义。
+请一定注意：对于 GET 请求，每个方法自带的参数都需要进行签名运算； 对于 POST 请求，每个方法自带的参数不进行签名认证，即
+POST 请求中需要进行签名运算的只有 AccessKeyId、SignatureMethod、SignatureVersion、Timestamp
+四个参数，其它参数放在 body 中。</li>
+<li>签名：签名计算得出的值，用于确保签名有效和未被篡改。</li>
+</ul>
+<h2 id='3-2'>3.2 签名步骤</h2>
+<p>规范要计算签名的请求因为使用
+HmacSHA256进行签名计算时，使用不同内容计算得到的结果会完全不同。所以在进行签名计算前，请先对请求进行规范化处理。下面以发起资金调拨请求为例进行说明：</p>
+
+<p>请求的API key与密钥对参考如下：</p>
+
+<p>AccessKeyId: e2xxxxxx-99xxxxxx-84xxxxxx-7xxxx</p>
+
+<p>AccessSecret: 1KFjiTRVlGSyzoNIEXIx8boXe7njFmjeHwiK4kKkEOY=</p>
+
+<p>资金调拨发起请求的URL如下：</p>
+
+<ul>
+<li>https://api.satsresearch.com/api/v1/broker/transferFunds?AccessKeyId=e2xxxxxx-99xxxxxx-84xxxxxx-7xxxx&amp;SignatureMethod=HmacSHA256&amp;SignatureVersion=1&amp;Timestamp=1662022581951</li>
+</ul>
+<h3 id='1-get-post-n'>1. 请求方法（GET 或 POST），后面添加换行符 “\n”</h3>
+<p>POST\n</p>
+<h3 id='2-n'>2. 添加小写的访问地址，后面添加换行符 “\n”</h3>
+<p>api.satsresearch.com\n</p>
+<h3 id='3-n'>3. 访问方法的路径，后面添加换行符 “\n”</h3>
+<p>/api/v1/broker/transferFunds\n</p>
+<h3 id='4-ascii'>4. 按照ASCII码的顺序对参数名进行排序。例如，下面是请求参数的原始顺序，进行过编码后</h3>
+<p>AccessKeyId=e2xxxxxx-99xxxxxx-84xxxxxx-7xxxxSignatureMethod=HmacSHA256SignatureVersion=1Timestamp=1662022581951</p>
+
+<p>使用 UTF-8 编码，且进行了 URI 编码，十六进制字符必须大写，如 “:” 会被编码为 “%3A” ，空格被编码为 “%20”。</p>
+
+<p>经过排序之后</p>
+
+<p>AccessKeyId=e2xxxxxx-99xxxxxx-84xxxxxx-7xxxx</p>
+
+<p>SignatureMethod=HmacSHA256</p>
+
+<p>SignatureVersion=1</p>
+
+<p>Timestamp=1662022581951</p>
+<h3 id='5-amp'>5. 按照以上顺序，将各参数使用字符 “&amp;” 连接</h3>
+<p>AccessKeyId=e2xxxxxx-99xxxxxx-84xxxxxx-7xxxx&amp;SignatureMethod=HmacSHA256&amp;SignatureVersion=1&amp;Timestamp=16620225819511</p>
+<h3 id='6'>6. 组成最终的要进行签名计算的字符串如下</h3>
+<p>POST\n</p>
+
+<p>api.satsresearch.com\n</p>
+
+<p>/api/v1/broker/transferFunds\n</p>
+
+<p>AccessKeyId=e2xxxxxx-99xxxxxx-84xxxxxx-7xxxx&amp;SignatureMethod=HmacSHA256&amp;SignatureVersion=1&amp;Timestamp=1662022581951</p>
+<h3 id='7-secret-key'>7. 用上一步里生成的 “请求字符串” 和你的密钥 (Secret Key) 生成一个数字签名</h3>
+<p>1KFjiTRVlGSyzoNIEXIx8boXe7njFmjeHwiK4kKkEOY=</p>
+
+<ol>
+<li>将上一步得到的请求字符串和密钥作为两个参数，调用HmacSHA256验签函数获得验签信息。</li>
+<li>将此验签信息用base-64编码，得到的值作为此次接口调用的数字签名。</li>
+</ol>
+<h3 id='8'>8. 将生成的数字签名加入到请求的路径参数里</h3>
+<p>最终，发送到服务器的 API 请求应该为</p>
+
+<p>https://api.satsresearch.com/api/v1/broker/transferFunds?AccessKeyId=e2xxxxxx-99xxxxxx-84xxxxxx-7xxxx&amp;SignatureMethod=HmacSHA256&amp;SignatureVersion=1&amp;Timestamp=1662022581951&amp;Signature=NFbf79FpjrKxJzXkswTW5NG/mKtTTlXZU2/BBHHnqzI=</p>
+
+<ul>
+<li>把所有必须的认证参数添加到接口调用的路径参数里</li>
+<li>把数字签名在URL编码后加入到路径参数里，参数名为“Signature”。</li>
+</ul>
+<h1 id='996ce96049'>四、业务枚举</h1>
+<p><strong>交易所枚举（ExchangeEnum）</strong></p>
+
+<table><thead>
+<tr>
+<th>枚举值</th>
+<th>说明</th>
+<th>备注</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>binance</td>
+<td>币安交易所</td>
+<td></td>
+</tr>
+<tr>
+<td>bybit</td>
+<td>bybit交易所</td>
+<td></td>
+</tr>
+<tr>
+<td>okx</td>
+<td>okx交易所</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>账户类型枚举（AccountTypeEnum）</strong></p>
+
+<table><thead>
+<tr>
+<th>交易所</th>
+<th>枚举值</th>
+<th>备注</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>binance</td>
+<td>经典账户: Spot, Margin, USDT-M, Coin-M 统一账户: Spot</td>
+<td>默认为Spot，托管子账户暂不支持</td>
+</tr>
+<tr>
+<td>bybit</td>
+<td>经典账户: Spot, Funding, USDT-M, Coin-M 统一账户: Funding, Trading, Coin-M</td>
+<td>默认为Funding</td>
+</tr>
+<tr>
+<td>okx</td>
+<td>Funding, Trading</td>
+<td>默认为Funding</td>
+</tr>
+</tbody></table>
+<h1 id='82ba285fa3'>五、接口明细</h1><h2 id='5-1'>5.1 资金调拨</h2><h2 id='http'>HTTP 请求</h2>
+<ul>
+<li>POST /api/v1/broker/transferFunds</li>
+</ul>
+<h2 id='1f9ac54b15'>请求参数</h2>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>clientTransferId</td>
+<td>String</td>
+<td>Y</td>
+<td>客户自定义划转id</td>
+</tr>
+<tr>
+<td>asset</td>
+<td>String</td>
+<td>Y</td>
+<td>划转资产名称</td>
+</tr>
+<tr>
+<td>fromExchange</td>
+<td>String</td>
+<td>Y</td>
+<td>源交易所，参考交易所枚举</td>
+</tr>
+<tr>
+<td>fromSubAccount</td>
+<td>String</td>
+<td>Y</td>
+<td>源子账户，参考交易所枚举</td>
+</tr>
+<tr>
+<td>fromAccountType</td>
+<td>String</td>
+<td>N</td>
+<td>出金账户类型，参考账户类型枚举</td>
+</tr>
+<tr>
+<td>toExchange</td>
+<td>String</td>
+<td>Y</td>
+<td>目的交易所，参考交易所枚举</td>
+</tr>
+<tr>
+<td>toSubAccount</td>
+<td>String</td>
+<td>Y</td>
+<td>目的子账户，参考交易所枚举</td>
+</tr>
+<tr>
+<td>toAccountType</td>
+<td>String</td>
+<td>N</td>
+<td>入金账户类型，参考账户类型枚举</td>
+</tr>
+<tr>
+<td>applyAmount</td>
+<td>Number</td>
+<td>Y</td>
+<td>发起金额，大于10U</td>
+</tr>
+</tbody></table>
+
+<p><strong>备注</strong></p>
+
+<ul>
+<li>資管合作暂不支持同账户不同业务账户资金划转</li>
+</ul>
+
+<blockquote>
+<p>Response:</p>
+</blockquote>
+<div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="p">{</span>
+  <span class="dl">"</span><span class="s2">msg</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="dl">"</span><span class="s2">success</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">code</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="mi">200</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">data</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="dl">"</span><span class="s2">clientTransferId</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">4e8c51b7-97ac-4ef1-864f-7869f13c0c6f</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">transferId</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">4e8c51b797ac4ef1864f7869f13c0c6f</span><span class="dl">"</span>
+    <span class="p">}</span>
+  <span class="p">],</span>
+      <span class="dl">"</span><span class="s2">ts</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="mi">1679903538458</span>
+<span class="p">}</span>
+
+</code></pre></div><h2 id='2213f4c32f'>响应数据</h2>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>clientTransferId</td>
+<td>String</td>
+<td>Y</td>
+<td>客户自定义划转id</td>
+</tr>
+<tr>
+<td>transferId</td>
+<td>String</td>
+<td>Y</td>
+<td>划转记录id</td>
+</tr>
+</tbody></table>
+<h2 id='5-2'>5.2 查询资金调拨记录</h2><h2 id='http-2'>HTTP 请求</h2>
+<ul>
+<li>GET /api/v1/broker/transfer/record</li>
+</ul>
+<h2 id='1f9ac54b15-2'>请求参数</h2>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>clientTransferId</td>
+<td>String</td>
+<td>N</td>
+<td>客户自定义划转id，与transferId二选一</td>
+</tr>
+<tr>
+<td>transferId</td>
+<td>String</td>
+<td>N</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<blockquote>
+<p>Response:</p>
+</blockquote>
+<div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="p">{</span>
+  <span class="dl">"</span><span class="s2">msg</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="dl">"</span><span class="s2">success</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">code</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="mi">200</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">data</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="dl">"</span><span class="s2">clientTransferId</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">4e8c51b7-97ac-4ef1-864f-7869f13c0c7f</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">asset</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">USDT</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">fromExchange</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">bybit</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">fromSubAccount</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">4665179554</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">toExchange</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">binance</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">toSubAccount</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">someacccount@binance.com</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">applyAmount</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">20</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">realAmount</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">19</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">feeAmount</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">1</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">externalStatus</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">done</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">applyTime</span><span class="dl">"</span><span class="p">:</span> <span class="mi">1715305243482</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">arriveTime</span><span class="dl">"</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">failReason</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">exchange internal error.</span><span class="dl">"</span>
+    <span class="p">}</span>
+  <span class="p">],</span>
+      <span class="dl">"</span><span class="s2">ts</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="mi">1715306224948</span>
+<span class="p">}</span>
+</code></pre></div><h2 id='2213f4c32f-2'>响应数据</h2>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>clientTransferId</td>
+<td>String</td>
+<td>Y</td>
+<td>客户自定义划转id</td>
+</tr>
+<tr>
+<td>transferId</td>
+<td>String</td>
+<td>Y</td>
+<td>划转记录id</td>
+</tr>
+<tr>
+<td>asset</td>
+<td>String</td>
+<td>Y</td>
+<td>划转资产名称</td>
+</tr>
+<tr>
+<td>fromExchange</td>
+<td>String</td>
+<td>Y</td>
+<td>源交易所</td>
+</tr>
+<tr>
+<td>fromSubAccount</td>
+<td>String</td>
+<td>Y</td>
+<td>源账户</td>
+</tr>
+<tr>
+<td>fromAccountType</td>
+<td>String</td>
+<td>N</td>
+<td>出金账户类型</td>
+</tr>
+<tr>
+<td>toExchange</td>
+<td>String</td>
+<td>Y</td>
+<td>目的交易所</td>
+</tr>
+<tr>
+<td>toSubAccount</td>
+<td>String</td>
+<td>Y</td>
+<td>目的账户</td>
+</tr>
+<tr>
+<td>toAccountType</td>
+<td>String</td>
+<td>N</td>
+<td>入金账户类型</td>
+</tr>
+<tr>
+<td>applyAmount</td>
+<td>String</td>
+<td>Y</td>
+<td>发起金额</td>
+</tr>
+<tr>
+<td>realAmount</td>
+<td>String</td>
+<td>N</td>
+<td>实际到账金额</td>
+</tr>
+<tr>
+<td>feeAmount</td>
+<td>String</td>
+<td>N</td>
+<td>提币手续费金额</td>
+</tr>
+<tr>
+<td>externalStatus</td>
+<td>String</td>
+<td>Y</td>
+<td>状态，pending:已提交，done:已完成，fail:失败</td>
+</tr>
+<tr>
+<td>applyTime</td>
+<td>Long</td>
+<td>Y</td>
+<td>提交时间</td>
+</tr>
+<tr>
+<td>arriveTime</td>
+<td>Long</td>
+<td>N</td>
+<td>到账时间</td>
+</tr>
+<tr>
+<td>failReason</td>
+<td>String</td>
+<td>N</td>
+<td>失败原因</td>
+</tr>
+</tbody></table>
+<h2 id='5-3'>5.3 查询资金调拨记录列表</h2><h2 id='http-3'>HTTP 请求</h2>
+<ul>
+<li>POST /api/v1/broker/transfer/recordList</li>
+</ul>
+<h2 id='1f9ac54b15-3'>请求参数</h2>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>clientTransferId</td>
+<td>String</td>
+<td>N</td>
+<td>客户自定义划转id，与transferId二选一</td>
+</tr>
+<tr>
+<td>transferId</td>
+<td>String</td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>asset</td>
+<td>String</td>
+<td>N</td>
+<td>划转资产名称</td>
+</tr>
+<tr>
+<td>fromExchange</td>
+<td>String</td>
+<td>N</td>
+<td>源交易所，参考交易所枚举</td>
+</tr>
+<tr>
+<td>fromSubAccount</td>
+<td>String</td>
+<td>N</td>
+<td>源子账户，参考交易所枚举</td>
+</tr>
+<tr>
+<td>fromAccountType</td>
+<td>String</td>
+<td>N</td>
+<td>出金账户类型，参考账户类型枚举</td>
+</tr>
+<tr>
+<td>toExchange</td>
+<td>String</td>
+<td>N</td>
+<td>目的交易所，参考交易所枚举</td>
+</tr>
+<tr>
+<td>toSubAccount</td>
+<td>String</td>
+<td>N</td>
+<td>目的子账户，参考交易所枚举</td>
+</tr>
+<tr>
+<td>toAccountType</td>
+<td>String</td>
+<td>N</td>
+<td>入金账户类型，参考账户类型枚举</td>
+</tr>
+<tr>
+<td>pageSize</td>
+<td>Number</td>
+<td>N</td>
+<td>起始页，默认：1</td>
+</tr>
+<tr>
+<td>pageNum</td>
+<td>Number</td>
+<td>N</td>
+<td>分页数据长度，默认：10，最大：1000</td>
+</tr>
+</tbody></table>
+
+<blockquote>
+<p>Response:</p>
+</blockquote>
+<div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="p">{</span>
+  <span class="dl">"</span><span class="s2">msg</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="dl">"</span><span class="s2">success</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">code</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="mi">200</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">data</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="dl">"</span><span class="s2">clientTransferId</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">4e8c51b7-97ac-4ef1-864f-7869f13c0c7f</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">asset</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">USDT</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">fromExchange</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">bybit</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">fromSubAccount</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">4665179554</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">toExchange</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">binance</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">toSubAccount</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">someacccount@binance.com</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">applyAmount</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">20</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">realAmount</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">19</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">feeAmount</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">1</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">externalStatus</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">done</span><span class="dl">"</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">applyTime</span><span class="dl">"</span><span class="p">:</span> <span class="mi">1715305243482</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">arriveTime</span><span class="dl">"</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="dl">"</span><span class="s2">failReason</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">exchange internal error.</span><span class="dl">"</span>
+    <span class="p">}</span>
+  <span class="p">],</span>
+      <span class="dl">"</span><span class="s2">ts</span><span class="dl">"</span>
+<span class="p">:</span>
+  <span class="mi">1715306224948</span>
+<span class="p">}</span>
+</code></pre></div><h2 id='2213f4c32f-3'>响应数据</h2>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>clientTransferId</td>
+<td>String</td>
+<td>Y</td>
+<td>客户自定义划转id</td>
+</tr>
+<tr>
+<td>transferId</td>
+<td>String</td>
+<td>Y</td>
+<td>划转记录id</td>
+</tr>
+<tr>
+<td>asset</td>
+<td>String</td>
+<td>Y</td>
+<td>划转资产名称</td>
+</tr>
+<tr>
+<td>fromExchange</td>
+<td>String</td>
+<td>Y</td>
+<td>源交易所</td>
+</tr>
+<tr>
+<td>fromSubAccount</td>
+<td>String</td>
+<td>Y</td>
+<td>源账户</td>
+</tr>
+<tr>
+<td>fromAccountType</td>
+<td>String</td>
+<td>N</td>
+<td>出金账户类型</td>
+</tr>
+<tr>
+<td>toExchange</td>
+<td>String</td>
+<td>Y</td>
+<td>目的交易所</td>
+</tr>
+<tr>
+<td>toSubAccount</td>
+<td>String</td>
+<td>Y</td>
+<td>目的账户</td>
+</tr>
+<tr>
+<td>toAccountType</td>
+<td>String</td>
+<td>N</td>
+<td>入金账户类型</td>
+</tr>
+<tr>
+<td>applyAmount</td>
+<td>String</td>
+<td>Y</td>
+<td>发起金额</td>
+</tr>
+<tr>
+<td>realAmount</td>
+<td>String</td>
+<td>N</td>
+<td>实际到账金额</td>
+</tr>
+<tr>
+<td>feeAmount</td>
+<td>String</td>
+<td>N</td>
+<td>提币手续费金额</td>
+</tr>
+<tr>
+<td>externalStatus</td>
+<td>String</td>
+<td>Y</td>
+<td>状态，pending:已提交，done:已完成，fail:失败</td>
+</tr>
+<tr>
+<td>applyTime</td>
+<td>Long</td>
+<td>Y</td>
+<td>提交时间</td>
+</tr>
+<tr>
+<td>arriveTime</td>
+<td>Long</td>
+<td>N</td>
+<td>到账时间</td>
+</tr>
+<tr>
+<td>failReason</td>
+<td>String</td>
+<td>N</td>
+<td>失败原因</td>
+</tr>
+</tbody></table>
+<h1 id='099432f8f3'>六、错误码</h1>
+<table><thead>
+<tr>
+<th>错误码</th>
+<th>状态码</th>
+<th>描述</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>200</td>
+<td>成功</td>
+</tr>
+<tr>
+<td>40000</td>
+<td>400</td>
+<td>通用请求错误</td>
+</tr>
+<tr>
+<td>40002</td>
+<td>400</td>
+<td>{0}参数非法，请检查后重试</td>
+</tr>
+<tr>
+<td>45164</td>
+<td>400</td>
+<td>资金调拨记录已存在</td>
+</tr>
+<tr>
+<td>45165</td>
+<td>400</td>
+<td>资金调拨accessKeyId参数非法</td>
+</tr>
+<tr>
+<td>45166</td>
+<td>400</td>
+<td>不支持的资金调拨币种</td>
+</tr>
+<tr>
+<td>45169</td>
+<td>400</td>
+<td>跨所资金调拨记录正在处理中</td>
+</tr>
+<tr>
+<td>50000</td>
+<td>500</td>
+<td>服务端错误</td>
+</tr>
+</tbody></table>
+<h1 id='0a4e1fbc63'>七、更新说明</h1><h2 id='20240716'>20240716</h2>
+<ul>
+<li>初始化文档；</li>
+</ul>
+
+      </div>
+      <div class="dark-box">
+      </div>
+    </div>
+    <script>
+      const lang_btn = document.getElementById('lang_box');
+      const btn_portfolio = document.getElementById('btn_portfolio');
+      const btn_ampartnership = document.getElementById('btn_ampartnership');
+      const v1_url = document.getElementById('v1_url');
+      const url = GetUrlRelativePath();
+
+      if(url.indexOf('cn') != -1){
+        //如果是中文环境
+        lang_btn.innerHTML = 'English';
+        btn_portfolio.innerHTML = '量化投资';
+        btn_ampartnership.innerHTML = '資管合作';
+        lang_btn.href = url.replace('cn/', 'en/');
+        btn_portfolio.href = btn_portfolio.href.replace('en/', 'cn/');
+        btn_ampartnership.href = btn_ampartnership.href.replace('en/', 'cn/');
+        v1_url.href = '/docs/portfolio/v1/cn/';
+      }else{
+        //如果是英文环境
+        lang_btn.innerHTML = '中文';
+        btn_portfolio.innerHTML = 'Portfolio';
+        btn_ampartnership.innerHTML = 'AM Partnership';
+        lang_btn.href = url.replace('en/', 'cn/');
+        btn_portfolio.href = btn_portfolio.href.replace('cn/', 'en/');
+        btn_ampartnership.href = btn_ampartnership.href.replace('cn/', 'en/');
+        v1_url.href = '/docs/portfolio/v1/en/';
+      }
+
+      if(location.href.indexOf('docs/ampartnership/v') > 0){
+        // 经纪商目录
+        btn_portfolio.className = '';
+        btn_ampartnership.className = 'current';
+      } else {
+        btn_portfolio.className = 'current';
+        btn_ampartnership.className = '';
+      }
+      //显示语言切换按钮
+      lang_btn.style.display = 'block';
+      function GetUrlRelativePath(){
+        let url = document.location.toString();
+        let arrUrl = url.split("//");
+        let start = arrUrl[1].indexOf("/");
+        let relUrl = arrUrl[1].substring(start);
+        if(relUrl.indexOf("?") != -1){
+          relUrl = relUrl.split("?")[0];
+        }
+        if(relUrl.indexOf("#") != -1){
+          relUrl = relUrl.split("#")[0];
+        }
+        return relUrl;
+  　　}
+    </script>
+  </body>
+</html>
